@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="PrimoCappo Restaurante e pizzaria"
+    content="PrimoCappo, Restaurante e pizzaria, pratos especiais, massas, rodízio de pizzas.">
+  <meta name="description" content="PrimoCappo, Restaurante e pizzaria, pratos especiais, massas, rodízio de pizzas." />
+
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://primocappo.com.br/">
+  <meta property="og:title" content="PrimoCappo RESTAURANTE e PIZZARIA">
+  <meta property="og:site_name" content="PrimoCappo RESTAURANTE e PIZZARIA">
+  <meta property="og:image:type" content="images/logo_cappo.png" />
+  <meta property="og:image:width" content="192" />
+  <meta property="og:image:height" content="217" />
+  <meta property="og:image" content="http://primocappo.com.br//images/images/logo_cappo.png">
+
+  <!--twitter card-->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@primocappo" />
+  <meta name="twitter:creator" content="@primocappo" />
+  <meta property="og:url" content="http://primocappo.com.br//images/images/logo_cappo.png" />
+  <meta property="og:title" content="PrimoCappo RESTAURANTE e PIZZARIA" />
+  <meta property="og:description"
+    content="PrimoCappo, Restaurante e pizzaria, pratos especiais, massas, rodízio de pizzas." />
+  <meta property="og:image" content="http://primocappo.com.br//images/images/logo_cappo.png" />
+  <title>Teste Delivery - PrimoCappo</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel='manifest' href='manifest.json'>
+
+</head>
+
+
+<body>
+
+
+  <style>
+    header {
+
+      padding: 4rem;
+    }
+
+    label {
+
+      color: #333;
+      font-weight: bold;
+    }
+
+    .labelAdicionais {
+
+      font-size: 14px;
+    }
+
+
+
+    input[type='text'] {
+      width: 105% !important;
+      font-size: 14px;
+      font-weight: bolder;
+      color: #333;
+      background: #FAFAFA;
+      border: none;
+      padding: 1rem;
+    }
+
+    input[type='tel'] {
+
+      width: 105% !important;
+      font-size: 14px;
+      font-weight: bolder;
+      color: #333;
+      background: #FAFAFA;
+      border: none;
+      padding: 1rem;
+
+    }
+
+    input[type='email'] {
+
+      width: 105% !important;
+      font-size: 14px;
+      font-weight: bolder;
+      color: #333;
+      background: #FAFAFA;
+      border: none;
+      padding: 1rem;
+    }
+
+    select {
+
+      width: 105% !important;
+      font-size: 14px;
+      font-weight: bolder;
+      color: #333;
+      background: #FAFAFA;
+      border: none;
+      padding: 1rem;
+    }
+  </style>
+
+  <!--
+    Documentação pesquisada:
+
+    https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/selectedIndex
+
+    https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators
+
+    https://www.devmedia.com.br/html5-storage-armazenando-dados-com-html5/28797
+
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
+    -->
+
+  <header>
+    <center><img class="pull-left" src="images/logoBurguer.png" alt=""></center>
+    <h1 class="text-center" style="color:#3e3e3e; font-size: 20pt;"></h1>
+  </header>
+
+
+  <div class="container" style="padding: 2rem;">
+
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="border: 1px solid #e9e6e6; padding:0.5rem;">
+        <div class="container">
+          <img class="img-thumbnail" src="images/hamburguer-artesanal.jpg" alt="">
+
+          <!--<span class="gg-check-r gg-check-r::after"></span>-->
+
+          <div class="text-danger" id="resRad" style="font-weight:bold; font-size:10pt; padding: 1rem;">
+            <!--<span id="checado" class="gg-check-r gg-check-r::after"></span>-->
+            <p style="font-size: 1rem;
+                        font-weight: bold;
+                        line-height: 1.5;
+                        color: #212529;
+                        text-align: left;">Extra Cheese Burguer Artesanal </p>
+            <p style="font-size: 0.80rem; line-height: 1rem; font-weight:bold; color: #717171;">
+              Delicioso hamburguer artesanal<br><span style="font-size:16px;color:rgb(177, 46, 46);">Novidade na Burguer
+                Classic</span></p>
+          </div>
+        </div>
+
+        <div class=" container text-danger" style="font-weight:bold; font-size:18pt; padding: 1rem;" id="res">
+        </div>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-danger pull-right" data-toggle="modal" data-target="#modal">Fazer
+          pedido</button>
+        <a href="#" type="reset" value="delete"><button class="btn btn-primary pull-right"">Limpar</button></a>
+
+        <!-- Modal -->
+        <div class=" modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <img class="img-fluid" src="images/logoBurguer.png" alt="">
+                  <h5 class="modal-title" id="modalLabel"></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="container" style="padding: 2rem;">
+                    <h1></h1>
+
+                    <div class="row">
+
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                        style="border: 1px solid #e9e6e6; padding:1rem;">
+                        <div class="container">
+                          <img class="img-thumbnail" src="images/hamburguer-artesanal.jpg" alt="">
+                          <form name="form01" class="" action="#" method="post">
+
+                            <p style="font-size: 1.125rem; font-weight: 500; color: #3e3e3e; ">
+                              <h5>Extra Cheese Burguer Artesanal</h5><br>
+                              <p style="font-size:16px;color:rgb(177, 46, 46);">Queijo brie, mostarda com mel, molho
+                                especial, salada verde e fatias de presunto de parma</italic>
+                              </p>
+                              <p style="color: #50a773; font-size: 0.875rem;">R$ 17,00 <span
+                                  style="font-size: 0.75rem;color: #dbdad9; text-decoration: line-through; margin-left: 6px;">R$21,00</span>
+                              </p>
+                              <h6>Escolha o tipo de carne:</h6>
+                              <select id="sabor" class="" name="Sabor" data-attribute_name="attribute_escolha-o-sabor"
+                                data-show_option_none="yes">
+
+                                <option value="" selected>Escolha uma opção</option>
+                                <option value="Hamburguer de picanha" class="attached enabled">Hamburguer de
+                                  picanha
+                                </option>
+                                <option value="Hamburguer de filé mingnon" class="attached enabled">
+                                  Hamburguer de filé mingnon
+                                </option>
+                              </select>
+                              <br>
+                              <br>
+                              <p class="" style="font-weight:bold; font-size:18pt; padding: 1rem;">
+                                Adicionais:
+                              </p>
+
+                              <div>
+                                <input type="radio" id="escolha01" name="Adicional" value="queijo">
+                                <label class="labelAdicionais" for="escolha01">+ Queijo</label>
+                                <br>
+                                <input type="radio" id="escolha02" name="Adicional" value="Salsinha">
+                                <label class="labelAdicionais" for="escolha02">+ Salsinha</label>
+                                <br>
+                                <input type="radio" id="escolha03" name="Adicional" value="Cebola">
+                                <label class="labelAdicionais" for="escolha03"> + Cebola</label>
+                              </div>
+                              <br>
+                              <div>
+
+                                  <br>
+                                  <label for="cliente"> Digite seu nome<span style="color:red">*</span></label>
+                                  <input type="text" id="cliente" name="cliente" placeholder="SEU NOME" required>
+                                  <br>
+                                  <label for="telefone"> Digite seu telefone<span style="color:red">*</span></label>
+                                  <input type="tel" required pattern="^\d{2}\d{5}\d{4}$" id="telefone" name="telefone"
+                                    placeholder="21XXXXXXXXX">
+                                  <br>
+                                  <label for="email">Digite seu email<span style="color:red">*</span></label>
+                                  <input type="email" name="email" required placeholder="nome@email.com">
+                                  <br>
+                                  <label for="endereco">Digite seu endereço<span style="color:red">*</span></label>
+                                  <input type="text" id="endereco" name="endereco" placeholder="SEU ENDEREÇO COMPLETO"
+                                    required>
+                                  <br>
+                                  <label for="cep">Digite seu CEP<span style="color:red">*</span></label>
+                                  <input type="text" name="cep" id="cep" required pattern="\d{5}?\d{3}"
+                                    placeholder="XXXXXXXX" />
+                              </div>
+
+                              <br>
+                              <button class="btn btn-danger" type="submit">Confirmar</button>
+                          </form>
+                          <br>
+                          <div class="text-danger" id="resRad" style="font-weight:bold; font-size:12pt; padding: 1rem;">
+                          </div>
+                        </div>
+
+                      <!--<div class="container text-danger" style="font-weight:bold; font-size:12pt; padding: 1rem;"
+                        id="res">
+                      </div>-->
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="" id="whatsapp-share-btt" rel="nofollow" target="_blank"><button class="btn btn-primary">Envia
+                    pedido</button> </a>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <!--<button class="btn  btn-danger" type="submit">Fazer pedido</button>-->
+              </div>
+            </div>
+      </div>
+
+    </div>
+    <!--Button trigger modal -->
+
+  </div>
+
+  </div>
+
+  </div>
+
+  <br>
+  <div>
+
+  </div>
+
+  <script>
+    //Guarda os valores
+    sessionStorage.setItem('cliente', document.form01.cliente.value);
+
+    sessionStorage.setItem('telefone', document.form01.telefone.value);
+
+    sessionStorage.setItem('email', document.form01.email.value);
+
+    sessionStorage.setItem('endereco', document.form01.endereco.value);
+    //console.log(sessionStorage.getItem('cliente'));
+    var form = document.querySelector("form");
+    var log = document.querySelector("#resRad");
+
+    function carregarDom() {
+      
+      document.addEventListener("DOMContentLoaded", function (event) {
+        console.log("DOM completamente carregado e analisado");
+      });
+
+      form.addEventListener("submit", function (event) {
+        var adicional = new FormData(form);
+        var output = "";
+        for (const entry of adicional) {
+          output = output + "\r" + entry[0] + ": " + entry[1] + " " + "\r";
+        };
+        //checado.innerHTML = "Teste";
+        resRad.innerText = output;
+        var resultado = output; //document.getElementById('resRad'); //.innerText Pegou a saída das escolhas
+
+        event.preventDefault();
+        console.log(resultado);
+
+        resultado = resultado.replace(/[ ]/g, '%20');
+        document.getElementById("whatsapp-share-btt").href =
+          `https://api.whatsapp.com/send?phone=5521971025148&text=${resultado}`;
+
+
+      }, false);
+    }
+
+    carregarDom();
+  </script>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
