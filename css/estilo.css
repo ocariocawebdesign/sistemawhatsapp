@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+header {
+  background-color: #fafafa;
+}
+
+#logoTopo {
+  z-index: 2;
+}
+
+.container-logo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.tituloTop {
+  font-family: "Anton", sans-serif;
+}
+
+h1 {
+  color: #3e3e3e;
+  font-size: 20pt;
+}
+
+h4 {
+  color: rgb(224, 54, 54);
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+
+p {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.informacao {
+  font-size: 12px !important;
+  color: red;
+}
+
+#confirmacao {
+  font-weight: bold;
+  font-size: 14px;
+}
+.modal-header {
+  padding: 0.4rem !important;
+}
+
+#span-modal {
+  font-size: 18px;
+  color: #333;
+}
+span {
+  font-size: 10px;
+  color: rgb(177, 46, 46);
+}
+
+.span-form-label {
+  color: rgb(185, 179, 179);
+  font-size: 10px;
+}
+
+#p-titulo-form {
+  font-size: 14px;
+  color: rgb(177, 46, 46);
+  font-weight: bold;
+}
+
+.titulo-modal-h1 {
+  font-family: "Anton", sans-serif;
+  text-align: center;
+}
+
+#modal-body-principal {
+  border: 1px solid #e9e6e6;
+  padding: 1rem;
+}
+
+#container-principal {
+  padding: 2rem;
+}
+
+#res {
+  font-weight: bold;
+  font-size: 18pt;
+  padding: 1rem;
+}
+
+.centralizar-flex-botoes-01 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.texto-bolder {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#promocao01 {
+  padding: 0.5rem;
+}
+
+#promocao02 {
+  padding: 0.5rem;
+}
+
+#resRad {
+  font-weight: bold;
+  font-size: 10pt;
+  padding: 1rem;
+}
+
+#modal-body-01 {
+  padding: 2rem;
+}
+
+#indisponivel01 {
+  padding: 1rem;
+  color: rgb(224, 54, 54);
+  font-size: 15px !important;
+  text-align: center !important;
+}
+
+#indisponivel02 {
+  padding: 1rem;
+  color: rgb(224, 54, 54);
+  font-size: 15px !important;
+  text-align: center !important;
+}
+
+#indisponivel03 {
+  padding: 1rem;
+  color: rgb(224, 54, 54);
+  font-size: 15px !important;
+  text-align: center !important;
+}
+
+#containerDelivery {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  /*padding: 1rem;*/
+  background: rgb(98, 98, 224);
+  color: #fff !important;
+  z-index: initial;
+}
+
+.boxApp01 {
+  width: 50%;
+  padding: 2px;
+  border: 1px solid #fff !important;
+  color: #fff !important;
+}
+
+.boxApp02 {
+  width: 50%;
+  padding: 2px;
+  border: 1px solid red;
+  color: #fff;
+}
+
+.pTextBoxApp {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.imgCircular {
+  border-radius: 20px 20px 20px 20px;
+  /*box-shadow: 2px 2px 2px 2px rgb(189, 187, 187);*/
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.containerHeader01 {
+  padding: 2rem;
+  width: 560px;
+  margin: auto;
+  /* background: rgba(149, 165, 166, 0.6);*/
+}
+
+/*#containerConteudo01 {
+    background: rgba(149, 165, 166, 0.6);
+}*/
+
+.btn-produtos {
+  color: #ffffff;
+  background-color: #e5442f;
+  font-weight: bold;
+  /*border-color: #357ebd;*/
+}
+
+.btn-produtos:hover {
+  color: #1c8131;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+  background: #fafafa;
+  transition-delay: 250ms;
+  transition-property: color, backgroudnd, font-weight;
+}
+
+footer {
+  padding: 1rem;
+}
+
+#container-footer {
+  padding: 4rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 12px;
+}
+
+i {
+  color: rgb(180, 43, 43);
+}
