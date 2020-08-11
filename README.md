@@ -1,6 +1,6 @@
 # Sistema de pedidos whatsapp
 
-![(/home/producao/Documentos/sistemawhatsapp/images/Screenshot.png)]
+![](/home/producao/Documentos/sistemawhatsapp/images/Screenshot.png)
 
 
 
