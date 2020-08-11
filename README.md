@@ -1,6 +1,6 @@
 # Sistema de pedidos whatsapp
 
-![](/home/producao/Downloads/Screenshot_2020-08-11 Burguer RESTAURANTE(1).png)
+![](/home/producao/Documentos/sistemawhatsapp/images/Screenshot.png)
 
 
 
